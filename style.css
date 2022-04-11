@@ -43,7 +43,8 @@ main {
 .left-side{
     display: flex;
     justify-content:space-evenly;   
-    align-items: flex-end; 
+    align-self: flex-end; 
+    background-color: aquamarine;
 }
 
 
