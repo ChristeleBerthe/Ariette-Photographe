@@ -13,7 +13,6 @@ main {
 .menu{
     display: flex;
     padding: 0;
-    background-color: ;
     justify-content: center;
 }
 .menu li{
