@@ -137,8 +137,8 @@ main {
     "img5p img3p img8p";
 }
 .img1p {
-    grid-area:img1p;
     width: 900px;
+    grid-area:img1p;
 }
 .img2p {
     grid-area:img2p;
