@@ -6,23 +6,10 @@
 
 *{
     background-color:  #eec18a; 
+} 
+main {
+    width: 1000px;
 }
-    img{
-        
-    border: 1px solid black;
-    height: 300px;
-    width: 500%;
-    font-size: 300%;
-    background-color: #d1897b;
-    border-radius: 10px;
-    
-}
-
-    
-    
-
-
-    
 .menu{
     display: flex;
     padding: 0;
@@ -39,4 +26,44 @@
     min-width: 120px;
 }
 /* mosaique portraits*/
-
+.conteneur-grid-portraits{
+    width: 900px;
+    height: 1000px;
+    display: grid;
+    grid-template-areas: 
+    "img1p img1p img1p"
+    "img7p img4p img4p"
+    "img5p img4p img4p"
+    "img5p img2p img8p"
+    "img5p img6p img8p"
+    "img5p img9p img8p"
+    "img5p img3p img8p";
+}
+.img1p {
+    grid-area:img1p;
+    width: 900px;
+}
+.img2p {
+    grid-area:img2p;
+}
+.img3p {
+    grid-area:img3p;
+}
+.img4p {
+    grid-area:img4p;
+}
+.img5p {
+    grid-area:img5p;
+}
+.img6p {
+    grid-area:img6p;
+}
+.img7p {
+    grid-area:img7p;
+}
+.img8p {
+    grid-area:img8p;
+}
+.img9p {
+    grid-area:img9p;
+}
