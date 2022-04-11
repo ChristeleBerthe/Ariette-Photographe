@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    padding: 0;
+    background-color: ;
+    justify-content: center;
+}
+.menu li{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+.menu a{
+    display:block;
+    min-width: 120px;
+}
+
