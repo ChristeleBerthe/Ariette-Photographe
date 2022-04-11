@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .menu{
     display: flex;
     padding: 0;
@@ -14,3 +18,95 @@
     min-width: 120px;
 }
 
+/*JADLA****************** grid pour la partie landscape*********************/
+.LS{
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 2.5em;
+}
+.Landscape{
+  display: grid;
+  grid-template-areas: 
+  "img1 img1 img1 img6 img6 img9 img9 img9"
+  "img8 img8 img8 img6 img6 img9 img9 img9"
+  "img8 img8 img8 img6 img6 img5 img5 img5"
+  "img8 img8 img8 img2 img2 img5 img5 img5"
+  "img8 img8 img8 img2 img2 img5 img5 img5"
+  "img3 img3 img3 img3 img4 img4 img4 img4"
+  "img3 img3 img3 img3 img4  img4 img4 img4"
+  "img7 img7 img7 img7 img7  img7 img7 img7"
+  "img7 img7 img7 img7 img7  img7 img7 img7";
+
+  width: 900px;
+  height: 1000px;
+  border: 1px solid blue;
+  margin: auto;
+}
+.img1{
+  grid-area: img1;
+   ;
+}
+.petit{
+  width: 300px; 
+  height: 140px ;
+  transition: transform .2s;
+}
+.petit:hover{
+  transform: scale(1.5);
+}
+.img2{
+  grid-area: img2;
+}
+
+.img3{
+  grid-area: img3;
+
+}
+.moyen{
+  width: 450px;
+  height: 200px;
+  transition: transform .2s;
+}
+.moyen:hover{
+  transform: scale(1.5);
+}
+.img4{
+  grid-area: img4;
+
+}
+.img5{
+  grid-area: img5;
+}
+.grand{
+  width: 300px;
+  height: 290px;
+}
+.Ggrand{
+  width:300px ;
+  height: 300px ;
+}
+.img6{
+  grid-area: img6;
+
+}
+.xgrand{
+  width:300px;
+  height:450px;
+ 
+}
+.img7{
+  grid-area: img7;
+
+}
+.xxgrand{
+  width: 900px;
+  height: 200px;
+}
+.img8{
+  grid-area: img8;
+
+}
+.img9{
+  grid-area: img9;
+
+}
