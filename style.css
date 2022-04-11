@@ -9,11 +9,12 @@
 
 *{
     
-    margin: 0;
-          padding: 0;
+   margin: 0;
+   padding: 0;
 } 
 main {
     width: 1000px;
+    margin: auto;
 }
 .menu{
     display: flex;
@@ -53,6 +54,7 @@ main {
   height: 1000px;
   border: 1px solid blue;
   margin: auto;
+  margin-bottom:60px ;
 }
 .img1{
   grid-area: img1;
@@ -92,10 +94,18 @@ main {
 .grand{
   width: 300px;
   height: 290px;
+  transition: transform .2s;
+}
+.grand:hover{
+  transform: scale(1.5);
 }
 .Ggrand{
   width:300px ;
   height: 300px ;
+  transition: transform .2s;
+}
+.Ggrand:hover{
+  transform: scale(1.5);
 }
 .img6{
   grid-area: img6;
@@ -104,7 +114,10 @@ main {
 .xgrand{
   width:300px;
   height:450px;
- 
+  transition: transform .2s;
+}
+.xgrand:hover{
+  transform: scale(1.5);
 }
 .img7{
   grid-area: img7;
@@ -113,6 +126,10 @@ main {
 .xxgrand{
   width: 900px;
   height: 200px;
+  transition: transform .1s;
+}
+.xxgrand:hover{
+  transform: scale(1.5);
 }
 .img8{
   grid-area: img8;
