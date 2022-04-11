@@ -3,17 +3,16 @@
 
     body{
         font-family:Roboto, sans-serif; 
-        background-color:  #eec18a; 
-          
+        background-color:  #eec18a;         
 }
 
 *{
-    
     margin: 0;
-          padding: 0;
+    padding: 0;
 } 
 main {
     width: 1000px;
+    margin: auto;
 }
 .menu{
     display: flex;
@@ -56,7 +55,6 @@ main {
 }
 .img1{
   grid-area: img1;
-   ;
 }
 .petit{
   width: 300px; 
@@ -72,7 +70,6 @@ main {
 
 .img3{
   grid-area: img3;
-
 }
 .moyen{
   width: 450px;
@@ -84,7 +81,6 @@ main {
 }
 .img4{
   grid-area: img4;
-
 }
 .img5{
   grid-area: img5;
@@ -99,16 +95,14 @@ main {
 }
 .img6{
   grid-area: img6;
-
 }
 .xgrand{
   width:300px;
   height:450px;
- 
+
 }
 .img7{
   grid-area: img7;
-
 }
 .xxgrand{
   width: 900px;
@@ -116,51 +110,78 @@ main {
 }
 .img8{
   grid-area: img8;
-
 }
 .img9{
   grid-area: img9;
-
 }
 /* mosaique portraits*/
 .conteneur-grid-portraits{
-    width: 900px;
-    height: 1000px;
+    border: 2px solid black;
     display: grid;
+    margin: auto;
+    width: 900px;
     grid-template-areas: 
     "img1p img1p img1p"
     "img7p img4p img4p"
-    "img5p img4p img4p"
+    "img3p img4p img4p"
     "img5p img2p img8p"
     "img5p img6p img8p"
     "img5p img9p img8p"
-    "img5p img3p img8p";
 }
 .img1p {
-    width: 900px;
     grid-area:img1p;
+}
+.p1 {
+    width: 900px;
 }
 .img2p {
     grid-area:img2p;
 }
+.p2 {
+    width: 300px;
+    height: 150px;
+}
 .img3p {
     grid-area:img3p;
+}
+.p3 {
+    width: 300px;
 }
 .img4p {
     grid-area:img4p;
 }
+.p4 {
+    width: 600px;
+}
 .img5p {
     grid-area:img5p;
+}
+.p5 {
+    width: 300px;
 }
 .img6p {
     grid-area:img6p;
 }
+.p6 {
+    width: 300px;
+    height: 150px;
+}
 .img7p {
     grid-area:img7p;
+}
+.p7 {
+    width: 300px;
 }
 .img8p {
     grid-area:img8p;
 }
+.p8{
+    width: 300px;
+}
 .img9p {
     grid-area:img9p;
+}
+.p9 {
+    width: 300px;
+    height: 150px;
 }
