@@ -22,10 +22,10 @@ h1{
     border-radius: 10px;
 }
 h1{
-     color:#3d858e ;
+     color:#ffffff ;
     margin: auto;
      font-family: "Beau Rivage", cursive;
-     font-size:70px;
+     font-size:100px;
  }   
     /*--style Menu--*/     
     
@@ -87,7 +87,9 @@ main {
 }
 .sujet{
    text-align: center; 
-   color:white
+  font-style: italic;
+  font-size: x-large;
+   color: white ;
 }
 
 /*JADLA****************** grid pour la partie landscape*********************/
