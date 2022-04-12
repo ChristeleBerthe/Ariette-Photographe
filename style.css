@@ -36,12 +36,12 @@ main {
 .menu{
     display: flex;
     padding: 0;
-    justify-content: center;
+    justify-content:space-around;
+    margin-bottom: 20px;
 }
 .menu li{
     list-style-type: none;
-    display:flex;
-    justify-content: space-between;
+   
    
 }
 
@@ -52,6 +52,10 @@ main {
     color: white;
 }
 /*--Footer--*/
+footer{
+  height: 100px;
+  background-color: #F6A844;
+}
 .left-side{
     display: flex;
     justify-content:space-evenly;   
@@ -59,19 +63,24 @@ main {
     
 }
 .address-details{
-  margin: 20px;
+  margin: 50px;
+  color:white;
 }
 .contact{
-  margin: 10px;
+  margin: 40px;
+  color:white
 }
 .fa-brands{
+  color:white;
   font-size: 25px;
-  margin: 20px;
+  margin: 50px;
 }
 .menu{
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 10px;
+  background-color:#F6A844  ;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 1.5em;
+    
 }
 .app{
     width: 100%;
@@ -211,7 +220,10 @@ main {
     "img3p img4p img4p"
     "img5p img2p img8p"
     "img5p img6p img8p"
-    "img5p img9p img8p"
+    "img5p img9p img8p";
+    margin-bottom: 20px;
+    
+
 }
 .ppetit:hover{
   transform: scale(1.5);
