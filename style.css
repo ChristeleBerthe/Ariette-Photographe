@@ -52,7 +52,8 @@ main {
 .left-side{
     display: flex;
     justify-content:space-evenly;   
-    align-items: flex-end; 
+    align-self: flex-end; 
+    background-color: aquamarine;
 }
 .menu{
     border: 1px solid black;
@@ -96,8 +97,8 @@ main {
 
   width: 900px;
   height: 1000px;
-  border: 1px solid blue;
   margin: auto;
+  margin-bottom:60px ;
 }
 .img1{
   grid-area: img1;
@@ -109,6 +110,7 @@ main {
 }
 .petit:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img2{
   grid-area: img2;
@@ -124,6 +126,7 @@ main {
 }
 .moyen:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img4{
   grid-area: img4;
@@ -134,10 +137,20 @@ main {
 .grand{
   width: 300px;
   height: 290px;
+  transition: transform .2s;
+}
+.grand:hover{
+  transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .Ggrand{
   width:300px ;
   height: 300px ;
+  transition: transform .2s;
+}
+.Ggrand:hover{
+  transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img6{
   grid-area: img6;
@@ -145,7 +158,11 @@ main {
 .xgrand{
   width:300px;
   height:450px;
-
+  transition: transform .2s;
+}
+.xgrand:hover{
+  transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img7{
   grid-area: img7;
@@ -153,6 +170,11 @@ main {
 .xxgrand{
   width: 900px;
   height: 200px;
+  transition: transform .1s;
+}
+.xxgrand:hover{
+  transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img8{
   grid-area: img8;
