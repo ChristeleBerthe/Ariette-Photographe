@@ -30,7 +30,6 @@ h1{
     /*--style Menu--*/     
     
 main {
-    width: 1000px;
     margin: auto;
 }
 .menu{
@@ -41,8 +40,6 @@ main {
 }
 .menu li{
     list-style-type: none;
-   
-   
 }
 
 .menu a{
@@ -53,14 +50,14 @@ main {
 }
 /*--Footer--*/
 footer{
-  height: 100px;
+  height: 100%;
   background-color: #F6A844;
+  width:100% ;
 }
 .left-side{
     display: flex;
     justify-content:space-evenly;   
     align-self: flex-end; 
-    
 }
 .address-details{
   margin: 50px;
@@ -84,17 +81,18 @@ footer{
 .sujet{
    text-align: center; 
   font-style: italic;
-  font-size: x-large;
-   color: #F6A844
+  font-size: 150%;   
+  color: #F6A844
 }
 
 /*JADLA****************** grid pour la partie landscape*********************/
 .LS{
   text-align: center;
-  margin: 20px 0px;
+  margin: 20px auto;
   font-size: 2.5em;
   color: white;
   background-color: #F6A844;
+  width: 950px;
 }
 .Landscape{
   display: grid;
@@ -109,7 +107,7 @@ footer{
   "img7 img7 img7 img7 img7  img7 img7 img7"
   "img7 img7 img7 img7 img7  img7 img7 img7";
 
-  width: 900px;
+  width: 950px;
   height: 1000px;
   margin: auto;
   margin-bottom:60px ;
@@ -198,10 +196,9 @@ footer{
 }
 /* mosaique portraits*/
 .conteneur-grid-portraits{
-    border: 2px solid black;
     display: grid;
     margin: auto;
-    width: 900px;
+    width: 950px;
     grid-template-areas: 
     "img1p img1p img1p"
     "img7p img4p img4p"
@@ -211,8 +208,7 @@ footer{
     "img5p img9p img8p";
     margin-bottom: 20px;
     gap: 10px;
-    
-
+    padding: 10px;
 }
 .ppetit:hover{
   transform: scale(1.5);
@@ -224,7 +220,7 @@ footer{
     grid-area:img1p;
 }
 .p1 {
-    width: 900px;
+    width: 950px;
 }
 .img2p {
     grid-area:img2p;
@@ -232,21 +228,20 @@ footer{
 .p2 {
     width: 300px;
     height: 150px;
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
 }
 .img3p {
     grid-area:img3p;
-    box-shadow: #000000; size: 50px;
-}
+  }
 .p3 {
     width: 300px;
-    
-
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
 }
 .img4p {
     grid-area:img4p;
 }
 .p4 {
-    width: 600px;
+    width: 620px;
 }
 .img5p {
     grid-area:img5p;
@@ -260,12 +255,14 @@ footer{
 .p6 {
     width: 300px;
     height: 150px;
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
 }
 .img7p {
     grid-area:img7p;
 }
 .p7 {
     width: 300px;
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
 }
 .img8p {
     grid-area:img8p;
@@ -279,6 +276,7 @@ footer{
 .p9 {
     width: 300px;
     height: 150px;
+    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
 }
 /* photo portrait accueil */
 .port{
@@ -287,11 +285,9 @@ footer{
   margin: auto;
   border: #131212 solid 1px;
   margin-bottom: 20px;
-  
 }
- 
+
  .pad{
   width: 100%;
   height: auto;
-  
  } 
