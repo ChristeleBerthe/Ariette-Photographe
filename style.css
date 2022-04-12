@@ -159,7 +159,7 @@ footer{
 }
 .moyen:hover{
   transform: scale(1.5);
-  box-shadow: rgba(240, 179, 10, 0.171) 0px 19px 15px;
+  box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
 .img4{
   grid-area: img4;
@@ -174,7 +174,7 @@ footer{
 }
 .grand:hover{
   transform: scale(1.5);
-  box-shadow: rgba(240, 179, 10, 0.171) 0px 19px 15px;
+  box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
 .Ggrand{
   width:300px ;
@@ -183,7 +183,7 @@ footer{
 }
 .Ggrand:hover{
   transform: scale(1.5);
-  box-shadow: rgba(240, 179, 10, 0.171) 0px 19px 15px;
+  box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
 .img6{
   grid-area: img6;
@@ -195,7 +195,7 @@ footer{
 }
 .xgrand:hover{
   transform: scale(1.5);
-  box-shadow: rgba(240, 179, 10, 0.171) 0px 19px 15px;
+  box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
 .img7{
   grid-area: img7;
@@ -207,7 +207,7 @@ footer{
 }
 .xxgrand:hover{
   transform: scale(1.5);
-  box-shadow: rgba(240, 179, 10, 0.171) 0px 19px 15px;
+  box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
 .img8{
   grid-area: img8;
