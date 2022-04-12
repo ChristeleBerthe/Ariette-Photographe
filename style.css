@@ -10,14 +10,8 @@ body{
     margin: 0;
     padding: 0;
 } 
-.img-between{ 
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-    font-size: 300%;
-    background-color: #d1897b;
-    border-radius: 10px;
-}
+
+/********************* Titre Principal **************/
 h1{
   text-align: center;
   font-weight: 100;
@@ -32,75 +26,49 @@ h1{
    font-weight: bold;
    font-style: normal;
    letter-spacing: 0px;
-
  }
-    /*--style Menu--*/     
     
-main {
-    margin: auto;
-}
+/*************************** Header ******************/
 .menu{
     display: flex;
     padding: 0;
     justify-content:space-around;
     margin-bottom: 20px;
+    background-color:#F6A844  ;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 .menu li{
     list-style-type: none;
 }
-
 .menu a{
     display:block;
     min-width: 120px;
     text-decoration: none;
     color: white;
 }
-/*--Footer--*/
-footer{
-  height: 100%;
-  background-color: #F6A844;
-  width:100% ;
-  font-size: 150%;
-  text-shadow: 2px 2px 3px rgb(0, 0, 0);
 
-}
-.left-side{
-    display: flex;
-    justify-content:space-evenly;   
-    align-self: flex-end; 
-}
-.address-details{
-  margin: 50px;
-  color:white;
-}
-.contact{
-  line-height: 1.5;
-  margin: 40px;
-  color:white
-}
-.fa-brands{
-  color:white;
-  font-size: 25px;
-  margin: 50px;
-}
-.menu{
-  background-color:#F6A844  ;
-  border: 1px solid black;
-  padding: 20px;
-  font-size: 1.5em;
-  text-shadow: 2px 2px 3px rgb(0, 0, 0);
-
-}
-.sujet{
-   text-align: center; 
-  font-weight: 100;  
-  font-style: italic;
-  letter-spacing: 5px;
-  font-size: 250%;   
-  color: #F6A844
+/*********************** Main *******************/     
+main {
+  margin: auto;
 }
 
-/******************* grid pour la partie landscape*********************/
+/************ photo portrait accueil ************/
+.port{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  border: #131212 solid 1px;
+  margin-bottom: 20px;
+}
+ .pad{
+  width: 100%;
+  height: auto;
+ }
+
+/************** grid pour la partie landscapescape ****************/
 .LS{
   text-align: center;
   margin: 20px auto;
@@ -139,12 +107,10 @@ footer{
 }
 .petit:hover{
   transform: scale(1.5);
-  
 }
 .img2{
   grid-area: img2;
 }
-
 .img3{
   grid-area: img3;
 }
@@ -166,7 +132,6 @@ footer{
   transform: scale(1.5);
   box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
-
 .img4{
   grid-area: img4;
 }
@@ -221,7 +186,8 @@ footer{
 .img9{
   grid-area: img9;
 }
-/* mosaique portraits*/
+
+/********************** mosaique portraits *****************/
 .conteneur-grid-portraits{
     display: grid;
     margin: auto;
@@ -305,16 +271,39 @@ footer{
     height: 150px;
     box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
 }
-/* photo portrait accueil */
-.port{
-  width: 200px;
-  height: auto;
-  margin: auto;
-  border: #131212 solid 1px;
-  margin-bottom: 20px;
-}
 
- .pad{
-  width: 100%;
-  height: auto;
- } 
+ /*************************** Footer ****************/
+footer{
+  height: 100%;
+  background-color: #F6A844;
+  width:100% ;
+  font-size: 150%;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+.left-side{
+    display: flex;
+    justify-content:space-evenly;   
+    align-self: flex-end; 
+}
+.address-details{
+  margin: 50px;
+  color:white;
+}
+.contact{
+  line-height: 1.5;
+  margin: 40px;
+  color:white
+}
+.fa-brands{
+  color:white;
+  font-size: 25px;
+  margin: 50px;
+}
+.sujet{
+  text-align: center; 
+ font-weight: 100;  
+ font-style: italic;
+ letter-spacing: 5px;
+ font-size: 250%;   
+ color: #F6A844
+} 
