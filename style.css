@@ -26,10 +26,12 @@ h1{
     margin: auto;
      font-family: open sans;
      font-size:100px;
+     letter-spacing: 5px;
  }   
  span {
    font-weight: bold;
    font-style: normal;
+   letter-spacing: 0px;
 
  }
     /*--style Menu--*/     
@@ -58,6 +60,9 @@ footer{
   height: 100%;
   background-color: #F6A844;
   width:100% ;
+  font-size: 150%;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
 }
 .left-side{
     display: flex;
@@ -82,10 +87,14 @@ footer{
   border: 1px solid black;
   padding: 20px;
   font-size: 1.5em;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
 }
 .sujet{
    text-align: center; 
+  font-weight: 100;  
   font-style: italic;
+  letter-spacing: 5px;
   font-size: 250%;   
   color: #F6A844
 }
@@ -95,6 +104,7 @@ footer{
   text-align: center;
   margin: 20px auto;
   font-size: 2.5em;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
   color: white;
   background-color: #F6A844;
   width: 950px;
