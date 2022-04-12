@@ -42,17 +42,30 @@ main {
     list-style-type: none;
     display:flex;
     justify-content: space-between;
+   
 }
+
 .menu a{
     display:block;
     min-width: 120px;
+    text-decoration: none;
 }
 /*--Footer--*/
 .left-side{
     display: flex;
     justify-content:space-evenly;   
     align-self: flex-end; 
-    background-color: aquamarine;
+    
+}
+.address-details{
+  margin: 20px;
+}
+.contact{
+  margin: 10px;
+}
+.fa-brands{
+  font-size: 25px;
+  margin: 20px;
 }
 .menu{
     border: 1px solid black;
