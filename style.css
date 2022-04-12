@@ -54,6 +54,13 @@ h1{
 main {
   margin: auto;
 }
+.txt {
+  color: #ffffff;
+  margin: auto;
+  width: 950px;
+  font-weight: 100;
+  text-align: center;
+}
 
 /************ photo portrait accueil ************/
 .port{
