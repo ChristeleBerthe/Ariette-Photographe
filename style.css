@@ -1,19 +1,15 @@
 /* Yao */
 /* Police général et Police gros titre  */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body{
-    font-family:Roboto, sans-serif; 
+    font-family: open Sans;
     background-color:  #130b01;         
 }
 *{
     margin: 0;
     padding: 0;
 } 
-h1{
-    text-align: center;
-}
 .img-between{ 
     border: 1px solid black;
     height: 300px;
@@ -23,11 +19,19 @@ h1{
     border-radius: 10px;
 }
 h1{
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
      color:#ffffff ;
     margin: auto;
-     font-family: "Beau Rivage", cursive;
+     font-family: open sans;
      font-size:100px;
  }   
+ span {
+   font-weight: bold;
+   font-style: normal;
+
+ }
     /*--style Menu--*/     
     
 main {
@@ -82,7 +86,7 @@ footer{
 .sujet{
    text-align: center; 
   font-style: italic;
-  font-size: 150%;   
+  font-size: 250%;   
   color: #F6A844
 }
 
