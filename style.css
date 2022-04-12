@@ -100,7 +100,7 @@ footer{
   color: #F6A844
 }
 
-/*JADLA****************** grid pour la partie landscape*********************/
+/******************* grid pour la partie landscape*********************/
 .LS{
   text-align: center;
   margin: 20px auto;
@@ -113,17 +113,17 @@ footer{
 .Landscape{
   display: grid;
   grid-template-areas: 
-  "img1 img1 img1 img6 img6 img9 img9 img9"
-  "img8 img8 img8 img6 img6 img9 img9 img9"
-  "img8 img8 img8 img6 img6 img5 img5 img5"
-  "img8 img8 img8 img2 img2 img5 img5 img5"
-  "img8 img8 img8 img2 img2 img5 img5 img5"
-  "img3 img3 img3 img3 img4 img4 img4 img4"
-  "img3 img3 img3 img3 img4  img4 img4 img4"
-  "img7 img7 img7 img7 img7  img7 img7 img7"
-  "img7 img7 img7 img7 img7  img7 img7 img7";
+  "img1 img6 img9"
+  "img8 img6 img9 "
+  "img8 img6 img5 "
+  "img8 img2 img5 "
+  "img8 img2 img5 "
+  "img3 img3 img4 "
+  "img3 img3 img4 "
+  "img7 img7 img7 "
+  "img7 img7 img7 ";
   gap: 10px;
-
+  border: #d1897b solid 1px;
   width: 950px;
   height: 1000px;
   margin: auto;
@@ -136,7 +136,7 @@ footer{
 .petit{
   width: 300px; 
   height: 140px ;
-  transition: transform 0.2s;
+  transition: transform 0.4s;
 }
 .petit:hover{
   transform: scale(1.5);
@@ -150,14 +150,24 @@ footer{
   grid-area: img3;
 }
 .moyen{
-  width: 450px;
+  width: 620px;
   height: 200px;
-  transition: transform .2s;
+  transition: transform .4s;
 }
 .moyen:hover{
   transform: scale(1.5);
   box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
 }
+.Mmoyen{
+  width: 300px;
+  height: 200px;
+  transition: transform .4s;
+}
+.Mmoyen:hover{
+  transform: scale(1.5);
+  box-shadow: rgba(240, 179, 10, 0.171) 0px 10px 40px;
+}
+
 .img4{
   grid-area: img4;
 }
@@ -167,7 +177,7 @@ footer{
 .grand{
   width: 300px;
   height: 290px;
-  transition: transform .2s;
+  transition: transform .4s;
 }
 .grand:hover{
   transform: scale(1.5);
@@ -176,7 +186,7 @@ footer{
 .Ggrand{
   width:300px ;
   height: 300px ;
-  transition: transform .2s;
+  transition: transform .4s;
 }
 .Ggrand:hover{
   transform: scale(1.5);
@@ -188,7 +198,7 @@ footer{
 .xgrand{
   width:300px;
   height:450px;
-  transition: transform .2s;
+  transition: transform .4s;
 }
 .xgrand:hover{
   transform: scale(1.5);
@@ -198,9 +208,9 @@ footer{
   grid-area: img7;
 }
 .xxgrand{
-  width: 930px;
-  height: 150px;
-  transition: transform .1s;
+  width: 940px;
+  height: 165px;
+  transition: transform .4s;
 }
 .xxgrand:hover{
   transform: scale(1.5);
