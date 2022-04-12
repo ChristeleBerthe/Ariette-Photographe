@@ -50,6 +50,7 @@ main {
     display:block;
     min-width: 120px;
     text-decoration: none;
+    color: white;
 }
 /*--Footer--*/
 .left-side{
