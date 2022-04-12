@@ -135,7 +135,7 @@ footer{
 .petit{
   width: 300px; 
   height: 140px ;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 .petit:hover{
   transform: scale(1.5);
