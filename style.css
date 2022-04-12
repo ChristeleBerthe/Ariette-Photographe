@@ -80,25 +80,12 @@ footer{
   border: 1px solid black;
   padding: 20px;
   font-size: 1.5em;
-    
-}
-.app{
-    width: 100%;
-    height: 50px;
-    display:flex;
-    justify-content:space-between ;
-
-}
-.Landscape{
-    width: 60px;
-    width: 60px;
-  
 }
 .sujet{
    text-align: center; 
   font-style: italic;
   font-size: x-large;
-   color: white ;
+   color: #F6A844
 }
 
 /*JADLA****************** grid pour la partie landscape*********************/
@@ -107,6 +94,7 @@ footer{
   margin: 20px 0px;
   font-size: 2.5em;
   color: white;
+  background-color: #F6A844;
 }
 .Landscape{
   display: grid;
@@ -222,6 +210,7 @@ footer{
     "img5p img6p img8p"
     "img5p img9p img8p";
     margin-bottom: 20px;
+    gap: 10px;
     
 
 }
@@ -246,9 +235,12 @@ footer{
 }
 .img3p {
     grid-area:img3p;
+    box-shadow: #000000; size: 50px;
 }
 .p3 {
     width: 300px;
+    
+
 }
 .img4p {
     grid-area:img4p;
