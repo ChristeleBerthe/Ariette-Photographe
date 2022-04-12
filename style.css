@@ -110,7 +110,6 @@ main {
 
   width: 900px;
   height: 1000px;
-  border: 1px solid blue;
   margin: auto;
   margin-bottom:60px ;
 }
@@ -124,6 +123,7 @@ main {
 }
 .petit:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img2{
   grid-area: img2;
@@ -139,6 +139,7 @@ main {
 }
 .moyen:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img4{
   grid-area: img4;
@@ -153,6 +154,7 @@ main {
 }
 .grand:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .Ggrand{
   width:300px ;
@@ -161,6 +163,7 @@ main {
 }
 .Ggrand:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img6{
   grid-area: img6;
@@ -172,6 +175,7 @@ main {
 }
 .xgrand:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img7{
   grid-area: img7;
@@ -183,6 +187,7 @@ main {
 }
 .xxgrand:hover{
   transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .img8{
   grid-area: img8;
@@ -203,6 +208,12 @@ main {
     "img5p img2p img8p"
     "img5p img6p img8p"
     "img5p img9p img8p"
+}
+.ppetit:hover{
+  transform: scale(1.5);
+}
+.ppetit {
+  transition: transform .2s;
 }
 .img1p {
     grid-area:img1p;
