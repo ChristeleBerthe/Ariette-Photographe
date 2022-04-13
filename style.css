@@ -352,13 +352,13 @@ footer{
   margin: 40px;
   color:white
 }
-.contact:hover{
-  opacity: ;
-}
 .fa-brands{
   color:white;
   font-size: 25px;
   margin: 50px;
+}
+.fa-brands:hover{
+  opacity: 0.5;
 }
 .sujet{
   text-align: center; 
