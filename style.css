@@ -231,6 +231,7 @@ main {
 .xxgrand{
   width: 940px;
   height: 165px;
+  object-fit: cover;
   transition: transform .4s;
 }
 .xxgrand:hover{
