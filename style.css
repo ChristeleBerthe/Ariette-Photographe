@@ -27,7 +27,6 @@ body{
   }
 
 /********************* Titre Principal **************/
-
 h1{
   text-align: center;
   font-weight: 100;
@@ -231,6 +230,7 @@ main {
 .xxgrand{
   width: 940px;
   height: 165px;
+  object-fit: cover;
   transition: transform .4s;
 }
 .xxgrand:hover{
@@ -351,13 +351,13 @@ footer{
   margin: 40px;
   color:white
 }
-.contact:hover{
-  opacity: ;
-}
 .fa-brands{
   color:white;
   font-size: 25px;
   margin: 50px;
+}
+.fa-brands:hover{
+  opacity: 0.5;
 }
 .sujet{
   text-align: center; 
