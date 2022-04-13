@@ -20,9 +20,10 @@ body{
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: auto;
+  height: 150%;
   z-index: -1000;
   overflow: hidden;
+  opacity: 0.45;
   }
 
 /********************* Titre Principal **************/
