@@ -11,6 +11,22 @@ body{
     padding: 0;
 } 
 
+/************* VIDEO **************/
+body{
+  margin: 0;
+  }
+  #video_background{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+  }
+
 /********************* Titre Principal **************/
 h1{
   text-align: center;
@@ -229,14 +245,14 @@ main {
 .p2 {
     width: 300px;
     height: 150px;
-    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 50px 38px; 
 }
 .img3p {
     grid-area:img3p;
   }
 .p3 {
     width: 300px;
-    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 50px 38px; 
 }
 .img4p {
     grid-area:img4p;
@@ -256,14 +272,14 @@ main {
 .p6 {
     width: 300px;
     height: 150px;
-    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 50px 38px; 
 }
 .img7p {
     grid-area:img7p;
 }
 .p7 {
     width: 300px;
-    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 50px 38px; 
 }
 .img8p {
     grid-area:img8p;
@@ -277,7 +293,7 @@ main {
 .p9 {
     width: 300px;
     height: 150px;
-    box-shadow: rgba(255, 255, 255, 0.473) 0px 5px 38px; 
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 50px 38px; 
 }
 
  /*************************** Footer ****************/
